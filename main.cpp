@@ -4,18 +4,26 @@
 
 #include <iostream>
 #include <cstring>
-/*#include "analyV.cpp"
+#include "analyV.cpp"
 #include "anaB.cpp"
 #include "markF.cpp"
-#include "adamC.cpp"*/
+#include "adamC.cpp"
 #include "estebanL.cpp"
 
 using namespace std;
 
 int main()
 {
-    esteban es;
-    es.print();
+    Esteban es;
+    cout << es.esteban << endl ;
+    Analy an;
+    cout << an.analy << endl ;
+    Ana aa;
+    cout << aa.ana << endl;
+    Mark mk;
+    cout << mk.mark << endl ;
+    Adam ad;
+    cout << ad.adam << endl;
     /*cout << analy << endl;
     cout << Ana << endl;
     cout << mf;

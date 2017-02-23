@@ -7,11 +7,11 @@
 
 using namespace std;
 
-class esteban()
+class Esteban
 {
     public:
     string esteban;
 
-    esteban(){esteban="Esteban"};
+    Esteban(){esteban="Esteban";}
     void print(){cout << esteban << endl;}
 };

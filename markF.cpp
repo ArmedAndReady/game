@@ -3,6 +3,15 @@
 // Project
 
 #include<iostream>
+#include<cstring>
 using namespace std;
 
-string mf = "Mark Felisilda\n";
+class Mark
+{
+    public:
+	string mark;
+
+	Mark(){mark="Mark";}
+	void print(){cout<<mark<< endl;}
+
+};

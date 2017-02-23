@@ -1,9 +1,16 @@
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
+class Analy
+{
+    public:
+	string analy;
 
-string analy = "Analy Velazquez";
+	Analy(){analy="Analy";}
+	void print(){cout << analy << endl;}
 
+};
    
 

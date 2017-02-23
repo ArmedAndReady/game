@@ -18,7 +18,7 @@ all: main
 main: main.cpp analyV.cpp anaB.cpp markF.cpp estebanL.cpp adamC.cpp
 	g++ main.cpp $(TFLAGS) -Wall -Wextra -omain
 
-#clean:
+clean:
 	rm -f main
 #=======
 #all: adamC

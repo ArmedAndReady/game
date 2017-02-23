@@ -2,7 +2,15 @@
 // Armed and Ready 
 //
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
-string Ana = "Ana Butanda";
+class Ana{
+public:
+	string ana;
+
+	Ana(){ana = "ana";}
+	void print(){cout << ana << endl;}
+
+};
