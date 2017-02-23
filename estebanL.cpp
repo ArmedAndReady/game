@@ -3,8 +3,15 @@
 //purpose: test github
 
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
-string esteban = "Esteban";
- 
+class esteban()
+{
+    public:
+    string esteban;
+
+    esteban(){esteban="Esteban"};
+    void print(){cout << esteban << endl;}
+};

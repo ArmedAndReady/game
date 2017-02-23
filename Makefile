@@ -2,7 +2,7 @@
 ##LIB    = ./libggfonts.so
 #LFLAGS = -lrt -lX11 -lGLU -lGL -pthread -lm #-lXrandr
 #team flags
-TFLAGS = analyV.cpp anaB.cpp markF.cpp estebanL.cpp
+TFLAGS = analyV.cpp anaB.cpp markF.cpp estebanL.cpp adamC.cpp
 #all: asteroids
 
 #<<<<<<< HEAD
@@ -15,7 +15,7 @@ TFLAGS = analyV.cpp anaB.cpp markF.cpp estebanL.cpp
 
 all: main
 
-main: main.cpp analyV.cpp anaB.cpp markF.cpp estebanL.cpp
+main: main.cpp analyV.cpp anaB.cpp markF.cpp estebanL.cpp adamC.cpp
 	g++ main.cpp $(TFLAGS) -Wall -Wextra -omain
 
 #clean:
