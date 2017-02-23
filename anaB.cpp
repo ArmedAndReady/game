@@ -5,4 +5,4 @@
 
 using namespace std;
 
-string A = "Ana Butanda";
+string Ana = "Ana Butanda";
