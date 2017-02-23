@@ -2,12 +2,12 @@ CFLAGS = -I ./include
 ##LIB    = ./libggfonts.so
 LFLAGS = -lrt -lX11 -lGLU -lGL -pthread -lm #-lXrandr
 
-all: asteroids
+all: adamC
 
-asteroids: asteroids.cpp log.cpp mytime.cpp
-	g++ $(CFLAGS) asteroids.cpp log.cpp mytime.cpp libggfonts.a -Wall -Wextra $(LFLAGS) -oasteroids
+adamC: adamC.cpp ppm.c log.c
+	g++ $(CFLAGS) adamC.cpp log.c libggfonts.a -Wall -Wextra $(LFLAGS) -o adamC
 
 clean:
-	rm -f asteroids
+	rm -f adamC
 	rm -f *.o
 
