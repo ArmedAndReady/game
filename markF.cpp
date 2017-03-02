@@ -6,12 +6,7 @@
 #include<cstring>
 using namespace std;
 
-class Mark
-{
-    public:
-	string mark;
-
-	Mark(){mark="Mark";}
-	void print(){cout<<mark<< endl;}
-
-};
+void printMark(){
+	string Mark = "Mark\n";
+	cout << Mark;
+}
