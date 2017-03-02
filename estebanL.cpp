@@ -1,5 +1,5 @@
 //author: Esteban Lopez
-//date: 2-23-17
+//date: Spring 17
 //purpose: test github
 
 #include <iostream>
@@ -7,14 +7,8 @@
 
 using namespace std;
 
-//class Esteban
-//{
-//    public:
- //   string esteban;
-
-   // Esteban(){esteban="Esteban";}
-    void print_esteban()
-	{	
-	    string esteban = "Esteban";
-	    cout << esteban << endl;}
-//};
+void print_esteban()
+{	
+    string esteban = "Esteban";
+    cout << esteban << endl;
+}
