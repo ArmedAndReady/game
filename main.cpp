@@ -9,9 +9,11 @@ using namespace std;
 
 extern void print_esteban();
 extern void print_Ana();
+extern void print_Mark();
 int main()
 {
 	print_esteban();
 	print_Ana();
+	print_Mark();
     return 0;
 }
