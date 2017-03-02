@@ -6,7 +6,7 @@
 #include<cstring>
 using namespace std;
 
-void printMark(){
+void print_Mark(){
 	string Mark = "Mark\n";
 	cout << Mark;
 }

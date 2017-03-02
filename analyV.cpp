@@ -1,16 +1,20 @@
+//Analy Velazquez
+//Armed and Ready
+
 #include <iostream>
 #include <cstring>
+#include <stdlib.h>
+
 
 using namespace std;
 
-class Analy
-{
-    public:
-	string analy;
 
-	Analy(){analy="Analy";}
-	void print(){cout << analy << endl;}
 
-};
-   
+void print_Analy() {
+    string analy= "analy";
+    cout << analy << endl;
+}
+
+
+
 
