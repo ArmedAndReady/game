@@ -1,6 +1,6 @@
-// Name: Mark Felisilda
-// CMPS 3350
-// Project
+// Author: Mark Felisilda
+// Date: Spring 2017
+// Purpose: Image Conversion/Animation for Armed and Ready
 
 #include<iostream>
 #include<cstring>
