@@ -4,28 +4,14 @@
 
 #include <iostream>
 #include <cstring>
-//#include "analyV.cpp"
-//#include "anaB.cpp"
-//#include "markF.cpp"
-//#include "adamC.cpp"
-//#include "estebanL.h"
 
 using namespace std;
 
 extern void print_esteban();
-
+extern void print_Ana();
 int main()
 {
 	print_esteban();
-   // Esteban es;
-   // cout << es.esteban << endl ;
-   /* Analy an;
-    cout << an.analy << endl ;
-    Ana aa;
-    cout << aa.ana << endl;
-    Mark mk;
-    cout << mk.mark << endl ;
-    Adam ad;
-    cout << ad.adam << endl;*/
+	print_Ana();
     return 0;
 }
